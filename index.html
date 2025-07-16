@@ -3,97 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>유재승 | 포트폴리오</title>
+    <title>포트폴리오-샘플</title>
+    <!-- 웹연결 -->
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 사용자파일 -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js" defer></script>
+    <script src="./scripts/scroll.js" defer></script>
 </head>
 <body>
-    <main>
-        <div class="page1"></div>
-        <div class="page2">
-            <div class="page2_title">
-                <h1>Profile</h1>
-            </div>
-            <div class="page2_main">
-                <div class="info">
-                    <h2>Info</h2>
-                    <p>유재승 | Yoo Jaeseung</p>
-                    <img src="" alt="이력서 사진">
-                    <p>2002.01.11</p>
-                    <p>ealrak3147@naver.com</p>
-                    <p>010-7291-6533</p>
-                    <a href="https://github.com/Ealrak" target="_blank">https://github.com/Ealrak</a>
-                </div>
-                <div class="keywords">
-                    <h2>Keywords</h2>
-                    <div class="keywords_main">
-                        <span>성실함</span>
-                        <span>끈기</span>
-                        <span>깔끔함</span>
-                    </div>
-                </div>
-                <div class="tool_edu">
-                    <div class="tool">
-                        <h2>Tools</h2>
-                        <p>Figma | 웹페이지 구상 가능<br>●●●●●○</p>
-                        <p>Illustrator | 인터넷 광고 배너 제작 O<br>●●●○○○</p>
-                        <p>Photoshop | 배너 제작 가능, 기초적인 기능 활용 가능<br>●●●●○○</p>
-                        <p>HTML & CSS | 웹페이지 구상 & 제작 가능<br>●●●●●○</p>
-                    </div>
-                    <div class="edu">
-                        <h2>Edu & Licence</h2>
-                        <span>2024.08 <br>프론트엔드 UIUX 반응형웹디자인&웹퍼블리셔 양성과정 수료</span>
-                        <span>2024.02 <br>신안산대학교 졸업</span>
-                        <span>2020.05 <br>2종 보통 면허 취득</span>
-                        <span>2020.01 <br>시온고등학교 졸업</span>
-                    </div>
-                </div>
-            </div>
+    <header>
+        <nav>
+            <a href="#">Intro</a>
+            <a href="#">Profile</a>
+            <a href="#">web Design</a>
+            <a href="#">etc Design</a>
+            <a href="#">Outro</a>
+        </nav>
+        <p>ealrak3147@naver.com</p>
+    </header>
+    <div class="swiper" id="wrap">
+		<!--필수-->
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">slide1</div>
+            <div class="swiper-slide slide2">slide2</div>
+            <div class="swiper-slide slide3">slide3</div>
         </div>
-        <div class="page3">
-            <div class="page3_title">
-                <h1>web Design</h1>
-            </div>
-            <div class="page3_main">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <span>Range Rover</span>
-                            <em>기간 : 8일</em>
-                            <p>25.06.30 ~ 25.07.07</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Casetify</span>
-                            <em>기간 : 2주</em>
-                            <p>25.06.10 ~ 25.06.24</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Bind</span>
-                            <em>기간 : 10일</em>
-                            <p>25.06.20 ~ 25.06.30</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="page4">
-            <div class="page4_title">
-                <h1>etc Design</h1>
-            </div>
-            <div class="page4_main">
-                <ul>
-                    <li><img src="#" alt=""></li>
-                    <li><img src="#" alt=""></li>
-                    <li><img src="#" alt=""></li>
-                    <li><img src="#" alt=""></li>
-                </ul>
-            </div>
-        </div>
-        <div class="page5"></div>
-    </main>
+</div>
 </body>
 </html>
