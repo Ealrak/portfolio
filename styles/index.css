@@ -1,0 +1,79 @@
+#wrap {
+    height:100vh;
+    background-color:#000;
+}
+#wrap .swiper-wrapper .intro {
+    background-image:url(../images/intro.png);
+    background-size:90%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#wrap .swiper-wrapper .profile {
+    width:1680px; margin:50px auto;
+}
+#wrap .swiper-wrapper .profile .profile_title {
+    padding:30px 0; border-bottom:1px solid #fff;
+}
+#wrap .swiper-wrapper .profile .profile_title h1{
+    color:#fff;
+    font-size:2rem; font-weight:500;
+}
+#wrap .swiper-wrapper .profile .profile_main {
+    margin-top:50px;
+    display:flex; flex-flow:row nowrap; gap:384.5px;
+}
+#wrap .swiper-wrapper .profile .profile_main .info {
+    display:flex; flex-flow:column nowrap; gap:30px;
+}
+#wrap .swiper-wrapper .profile .profile_main .info > * {
+    color:#fff;
+}
+#wrap .swiper-wrapper .profile .profile_main .info h2 {
+    font-size:1.5rem; font-weight:600;
+}
+#wrap .swiper-wrapper .profile .profile_main .info p {
+    font-weight:500;
+}
+#wrap .swiper-wrapper .profile .profile_main .info img {
+    width:263px; height:350px;
+}
+#wrap .swiper-wrapper .profile .profile_main .info a {
+    font-weight:500;
+}
+#wrap .swiper-wrapper .profile .profile_main .keywords {
+    text-align: center;
+}
+#wrap .swiper-wrapper .profile .profile_main .keywords > * {
+    color:#fff;
+}
+#wrap .swiper-wrapper .profile .profile_main .keywords h2 {
+    font-size:1.5rem; font-weight:600; margin-bottom:30px;
+}
+#wrap .swiper-wrapper .profile .profile_main .keywords .keywords_main p {
+    width:200px; height:200px;
+    border:3px solid #fff; border-radius:100px;
+    text-align: center; line-height: 200px;
+    color:#fff;
+}
+#wrap .swiper-wrapper .profile .profile_main .tool_edu {
+    text-align: center;
+    display:flex; flex-flow:column nowrap; gap:70px;
+}
+#wrap .swiper-wrapper .profile .profile_main .tool_edu .tool {
+    display:flex; flex-flow:column nowrap; gap:25px;
+}
+#wrap .swiper-wrapper .profile .profile_main .tool_edu .tool > * {
+    color:#fff;
+}
+#wrap .swiper-wrapper .profile .profile_main .tool_edu .tool h2 {
+    font-size:1.5rem; font-weight:600;
+}
+#wrap .swiper-wrapper .profile .profile_main .tool_edu .tool p {
+    line-height:140%;
+}
+#wrap .swiper-wrapper .profile .profile_main .tool_edu .edu {}
+#wrap .swiper-wrapper .profile .profile_main .tool_edu .edu > * {
+    color:#fff;
+}
+#wrap .swiper-wrapper .profile .profile_main .tool_edu .edu h2 {}
+#wrap .swiper-wrapper .profile .profile_main .tool_edu .edu h2 p {}
