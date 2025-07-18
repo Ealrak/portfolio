@@ -113,6 +113,7 @@ header p {color:#DCD7C9;}
 #wrap .swiper-wrapper .webdesign .container #project_swiper {
     border:2px solid #000;
     height:500px; width:1300px;
+    padding:50px;
 }
 #wrap .swiper-wrapper .webdesign .container #project_swiper .swiper-wrapper .slide1 {
     background-image:url(../images/casetify.png);
@@ -177,6 +178,9 @@ header p {color:#DCD7C9;}
 #wrap .swiper-wrapper .etcdesign .etc_title h1 {
     color:#fff;
     font-size:2rem; font-weight:500;
+}
+#wrap .swiper-wrapper .etcdesign .container #etc_swiper .swiper-wrapper .swiper-slide img {
+    width:530px;
 }
 #wrap .swiper-wrapper .outro {
     background-image:url(../images/outro.png);

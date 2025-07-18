@@ -10,7 +10,11 @@ const project1 = new Swiper('#project_swiper', {
     navigation:{
         nextEl:'#project_swiper ~ .swiper-button-next',
         prevEl:'#project_swiper ~ .swiper-button-prev',
-    }
+    },
+    autoplay:{delay:3000,},
+    speed:1500,
+    loop:true,
+    spaceBetween:50,
 })
 
 //내비게이션 클릭 시 해당 위치 수직 스와이프 이동
@@ -23,4 +27,12 @@ nav.forEach((obj, idx)=>{
         e.preventDefault();//a의 href기본기능막기
         wrap.slideTo(idx, 1000)
     })
+})
+
+const sns = new Swiper('#etc_swiper',{
+    slidesPerView:3,
+    spaceBetween:10,
+    autoplay:{delay:0,},
+    speed:3000,
+    loop:true,
 })
