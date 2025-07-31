@@ -28,7 +28,7 @@ nav.forEach((obj, idx)=>{
 
 const sns = new Swiper('#etc_swiper',{
     slidesPerView:4,
-    spaceBetween:5,
+    spaceBetween:10,
     autoplay:{delay:0,},
     speed:3000,
     loop:true,
