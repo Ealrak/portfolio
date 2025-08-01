@@ -158,18 +158,18 @@ header p {color:#DCD7C9;}
     width:200px; padding:10px 20px; border:1px solid #fff; border-radius:7px;
 }
 #wrap .swiper-wrapper .webdesign .container #project_swiper .swiper-wrapper .slide3 .link a:hover {filter:invert(1)}
-#wrap .swiper-wrapper .etcdesign {width:1680px; margin:0 auto; height:400px; overflow: hidden;}
-#wrap .swiper-wrapper .etcdesign .etc_title {
+#wrap .swiper-wrapper .snsdesign {width:1680px; margin:0 auto; height:400px; overflow: hidden;}
+#wrap .swiper-wrapper .snsdesign .sns_title {
     padding:30px 0; border-bottom:1px solid #fff;
 }
-#wrap .swiper-wrapper .etcdesign .etc_title h1 {
+#wrap .swiper-wrapper .snsdesign .sns_title h1 {
     color:#fff;
     font-size:2rem; font-weight:500;
 }
-#wrap .swiper-wrapper .etcdesign .container #etc_swiper .swiper-wrapper .swiper-slide img {
+#wrap .swiper-wrapper .snsdesign .container #sns_swiper .swiper-wrapper .swiper-slide img {
     width:300px;
 }
-#wrap .swiper-wrapper .etcdesign .container #etc_swiper {
+#wrap .swiper-wrapper .snsdesign .container #sns_swiper {
     height:500px; margin:50px auto 0;
 }
 #wrap .swiper-wrapper .outro {
