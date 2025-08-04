@@ -30,6 +30,6 @@ const sns = new Swiper('#sns_swiper',{
     slidesPerView:4,
     spaceBetween:10,
     autoplay:{delay:0,},
-    speed:3000,
+    speed:3001,
     loop:true,
 })
