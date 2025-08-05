@@ -28,8 +28,27 @@ nav.forEach((obj, idx)=>{
 
 const sns = new Swiper('#sns_swiper',{
     slidesPerView:5,
-    spaceBetween:5,
+    spaceBetween:100,
     autoplay:{delay:0,},
     speed:3000,
     loop:true,
+})
+
+// SNS 프로젝트 클릭 시 팝업 실행(클릭한 이미지가 팝업 이미지로 교체)
+const snsProject = document.querySelectorAll('#sns_swiper .swiper-slide')
+const popup = document.querySelector('.popup_bg');
+console.log(snsProject, popup);
+
+for(let sns of snsProject){
+    sns.addEventListener('click',()=>{
+        popup.style.display='block';
+        popup.children[0].children[0].src = sns.children[0].src;
+        // 팝업 실행 시 전체 수작 Swiper 스크롤 기능 막기
+        wrap.mousewheel.disable(); //스크롤 풀기 enable()
+    })
+}
+
+popup.addEventListener('click',()=>{
+    popup.style.display = 'none'
+    wrap.mousewheel.enable();
 })
