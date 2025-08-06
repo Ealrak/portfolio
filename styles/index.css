@@ -168,7 +168,8 @@ header p {color:#DCD7C9;}
 }
 #wrap .swiper-wrapper .snsdesign .container #sns_swiper {height:430px; margin:50px auto;}
 #wrap .swiper-wrapper .snsdesign .container #sns_swiper .swiper-wrapper .swiper-slide {cursor: pointer;}
-#wrap .swiper-wrapper .snsdesign .container #sns_swiper .swiper-wrapper .swiper-slide img {width:330px;}
+#wrap .swiper-wrapper .snsdesign .container #sns_swiper .swiper-wrapper .swiper-slide img {width:330px; transition:opacity 0.3s ease;}
+#wrap .swiper-wrapper .snsdesign .container #sns_swiper .swiper-wrapper .swiper-slide img:hover {opacity:0.5;}
 #wrap .swiper-wrapper .outro {
     background-image:url(../images/outro.png);
     background-size:80%;
