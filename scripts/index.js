@@ -26,6 +26,14 @@ nav.forEach((obj, idx)=>{
     })
 })
 
+const sns2 = new Swiper('#sns_swiper2',{
+    slidesPerView:4.3,
+    spaceBetween:100,
+    autoplay:{delay:0,},
+    speed:5000,
+    loop:true,
+})
+
 const sns = new Swiper('#sns_swiper',{
     slidesPerView:5,
     spaceBetween:100,
@@ -39,10 +47,23 @@ const snsProject = document.querySelectorAll('#sns_swiper .swiper-slide')
 const popup = document.querySelector('.popup_bg');
 console.log(snsProject, popup);
 
+const snsProject2 = document.querySelectorAll('#sns_swiper2 .swiper-slide')
+const popup2 = document.querySelector('.popup_bg');
+console.log(snsProject2, popup2);
+
 for(let sns of snsProject){
     sns.addEventListener('click',()=>{
         popup.style.display='block';
         popup.children[0].children[0].src = sns.children[0].src;
+        // 팝업 실행 시 전체 수작 Swiper 스크롤 기능 막기
+        wrap.mousewheel.disable(); //스크롤 풀기 enable()
+    })
+}
+
+for(let sns2 of snsProject2){
+    sns2.addEventListener('click',()=>{
+        popup.style.display='block';
+        popup.children[0].children[0].src = sns2.children[0].src;
         // 팝업 실행 시 전체 수작 Swiper 스크롤 기능 막기
         wrap.mousewheel.disable(); //스크롤 풀기 enable()
     })
