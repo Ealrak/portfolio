@@ -62,8 +62,8 @@ for(let sns of snsProject){
 
 for(let sns2 of snsProject2){
     sns2.addEventListener('click',()=>{
-        popup.style.display='block';
-        popup.children[0].children[0].src = sns2.children[0].src;
+        popup2.style.display='block';
+        popup2.children[0].children[0].src = sns2.children[0].src;
         // 팝업 실행 시 전체 수작 Swiper 스크롤 기능 막기
         wrap.mousewheel.disable(); //스크롤 풀기 enable()
     })
@@ -71,5 +71,9 @@ for(let sns2 of snsProject2){
 
 popup.addEventListener('click',()=>{
     popup.style.display = 'none'
+    wrap.mousewheel.enable();
+})
+popup2.addEventListener('click',()=>{
+    popup2.style.display = 'none'
     wrap.mousewheel.enable();
 })
